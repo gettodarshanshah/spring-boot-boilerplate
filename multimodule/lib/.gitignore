@@ -1,22 +1,8 @@
 HELP.md
-.mvn/
 target/
-m2/
-.metadata/
-.classpath
-bin/
-.settings/
-.project
-
-.history/
-
-mvnw
-mvnw.cmd
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**
 !**/src/test/**
-
-.attach?
 
 ### STS ###
 .apt_generated
@@ -26,13 +12,20 @@ mvnw.cmd
 .settings
 .springBeans
 .sts4-cache
-### Dependencies ###
-**/m2
-### Intellij IDEA ###
+
+### IntelliJ IDEA ###
 .idea
 *.iws
 *.iml
 *.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
 ### VS Code ###
-/.metadata/
 .vscode/
